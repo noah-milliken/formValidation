@@ -1,3 +1,20 @@
-.hello {
-  color: red;
+
+input:invalid {
+  border: 1px dashed tomato;
+}
+
+input:valid{
+  border: solid black 1px;
+}
+
+.error{
+  padding: 0;
+  font-size: 80%;
+  color: black;
+  
+  box-sizing: border-box;
+}
+
+.error.active{
+  padding: 0.3em;
 }
